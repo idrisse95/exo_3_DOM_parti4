@@ -41,14 +41,19 @@ let img5 = document.getElementsByTagName('img')[0]
 let exo5 = document.getElementById('six')
 exo5.addEventListener('click',()=>{
 
+  
     img5.setAttribute('src','./src/image/tartine.png')
 
 })
 
 
 let exo6 = document.getElementsByTagName('img')[2]
+
+let exo6b= document.getElementsByTagName('img')[1]
+
 exo6.addEventListener('click',()=>{
  
+    exo6b.setAttribute('src','')
     exo6.setAttribute('src','./src/image/tartine.png')
 
 })
@@ -61,7 +66,7 @@ let exo7p2 = document.getElementsByTagName('p')[6]
 let exo7pB = document.getElementsByTagName('p')[6]
 
 exo7Button.addEventListener('click',()=>{
-    exo7p.innerText = exo7pB.innerText
+    exo7p.innerText = exo7p.innerText
 
     exo7p2.innerText = exo7p.textContent
     
