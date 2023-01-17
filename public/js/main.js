@@ -66,9 +66,11 @@ let exo7p2 = document.getElementsByTagName('p')[6]
 let exo7pB = document.getElementsByTagName('p')[6]
 
 exo7Button.addEventListener('click',()=>{
-    exo7p.innerText = exo7p.innerText
+    let dd = exo7p.textContent
 
-    exo7p2.innerText = exo7p.textContent
+    exo7p.innerText = exo7pB.innerText
+
+    exo7p2.innerText = dd
     
     
 })
